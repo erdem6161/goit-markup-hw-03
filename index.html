@@ -21,34 +21,53 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <!-- Header content goes here -->
+    <!-- Header content goes here -->
 
-      <nav class="header-nav">
-        <a class="logo" href="./index.html">Web<span  class="nav-logo">Studio</span></a>
-        <ul class="nav-list">
-          <li class="nav-items"><a class="nav-link" href="./index.html">Studio</a></li>
-          <li class="nav-items"><a class="nav-link" href="">Portfolio</a></li>
-          <li class="nav-items"><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contacts-info">
-        <ul class="contacts-list">
-          <li class="contacts-info-item"><a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="contacts-info-item"><a class="contacts-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+    <header class="header-bar">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="nav-logo">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-items">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-items"><a class="nav-link" href="">Portfolio</a></li>
+            <li class="nav-items"><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contacts-info">
+          <ul class="contacts-list">
+            <li class="contacts-info-item">
+              <a class="contacts-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-info-item">
+              <a class="contacts-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Section 1 content goes here -->
 
       <section class="section-first">
-        <h1 class="section-first-head">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
+        <div class="container section-one">
+          <h1 class="section-first-head">
+            Effective Solutions for Your Business
+          </h1>
+          <button class="button" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- Section 2 content goes here -->
       <section class="section-second">
+        <div class="container">
         <h2 class="section-second-head">About US</h2>
         <ul class="section-second-list">
           <li class="section-second-item">
@@ -83,13 +102,15 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Section 3 content goes here -->
       <section class="section-thirth">
         <h2 class="section-thirth-head">Our Team</h2>
         <ul class="section-thirth-list">
           <li class="section-thirth-item">
-            <img class="section-thirth-img"
+            <img
+              class="section-thirth-img"
               src="./images/image1.jpg"
               alt="Mark Guerrero"
               width="264"
@@ -101,7 +122,8 @@
           </li>
 
           <li class="section-thirth-item">
-            <img class="section-thirth-img"
+            <img
+              class="section-thirth-img"
               src="./images/image2.jpg"
               alt="Tom Ford"
               width="264"
@@ -113,7 +135,8 @@
           </li>
 
           <li class="section-thirth-item">
-            <img class="section-thirth-img"
+            <img
+              class="section-thirth-img"
               src="./images/iamge3.jpg"
               alt="Camila Garcia"
               width="264"
@@ -125,7 +148,8 @@
           </li>
 
           <li class="section-thirth-item">
-            <img class="section-thirth-img"
+            <img
+              class="section-thirth-img"
               src="./images/image4.jpg"
               alt="Daniel Wilson"
               width="264"
@@ -142,32 +166,62 @@
         <h2 class="section-fourth-head">Our Portfolio</h2>
         <ul class="section-fourth-list">
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/banking.jpg" alt="banking" width="360" />
+            <img
+              class="section-fourth-img"
+              src="./images/banking.jpg"
+              alt="banking"
+              width="360"
+            />
             <h3 class="section-fourth-info">Banking App</h3>
             <p class="section-fourth-text">App</p>
           </li>
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/cashless.jpg" alt="cashless" width="360" />
+            <img
+              class="section-fourth-img"
+              src="./images/cashless.jpg"
+              alt="cashless"
+              width="360"
+            />
             <h3 class="section-fourth-info">Cashless Payment</h3>
             <p class="section-fourth-text">Marketing</p>
           </li>
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/Meditation.jpg" alt="meditation" width="360" />
+            <img
+              class="section-fourth-img"
+              src="./images/Meditation.jpg"
+              alt="meditation"
+              width="360"
+            />
             <h3 class="section-fourth-info">Meditation App</h3>
             <p class="section-fourth-text">App</p>
           </li>
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/Taxi.jpg" alt="taxi" width="360" />
+            <img
+              class="section-fourth-img"
+              src="./images/Taxi.jpg"
+              alt="taxi"
+              width="360"
+            />
             <h3 class="section-fourth-info">Taxi Service</h3>
             <p class="section-fourth-text">Marketing</p>
           </li>
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/Screen.jpg" alt="screen" width="360" />
-            <h3 class="section-fourth-info" >Screen Illustrations</h3>
+            <img
+              class="section-fourth-img"
+              src="./images/Screen.jpg"
+              alt="screen"
+              width="360"
+            />
+            <h3 class="section-fourth-info">Screen Illustrations</h3>
             <p class="section-fourth-text">Design</p>
           </li>
           <li class="section-fourth-items">
-            <img class="section-fourth-img" src="./images/Online.jpg" alt="online" width="360" />
+            <img
+              class="section-fourth-img"
+              src="./images/Online.jpg"
+              alt="online"
+              width="360"
+            />
             <h3 class="section-fourth-info">Online Courses</h3>
             <p class="section-fourth-text">Marketing</p>
           </li>
@@ -177,7 +231,9 @@
 
     <!-- Footer content goes here -->
     <footer class="footer">
-      <a class="footer-head" href="./index.html">Web<span class="footer-logo">Studio</span></a>
+      <a class="footer-head" href="./index.html"
+        >Web<span class="footer-logo">Studio</span></a
+      >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
