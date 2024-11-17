@@ -122,10 +122,6 @@ header {
   color: #404bbf;
 }
 
-/* span {
-  color: #2e2f42;
-} */
-
 .contacts-info {
   font-style: normal;
   display: flex;
@@ -208,6 +204,7 @@ header {
   background-color: #404bbf;
 }
 
+/* Section 2 content goes here */
 .section-second {
   padding: 120px;
 }
@@ -230,7 +227,6 @@ header {
   flex-direction: row;
   flex-shrink: 0;
 }
-
 
 .section-second-item {
   width: calc((1128px - 72px) / 4);
@@ -256,6 +252,7 @@ header {
   text-align: left;
 }
 
+/* Section 3 content goes here */
 .section-thirth {
   background-color: #f4f4fd;
   padding: 120px;
@@ -302,7 +299,6 @@ header {
   padding: 32px;
   margin-left: 16px;
   margin-right: 16px;
-
 }
 
 .section-thirth-text {
@@ -310,6 +306,8 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+/* Section 4 content goes here */
 
 .section-fourth {
   padding: 120px;
@@ -356,6 +354,7 @@ header {
   color: #434455;
 }
 
+/* Section footer content goes here */
 .footer {
   background-color: #2e2f42;
   padding: 100px;
