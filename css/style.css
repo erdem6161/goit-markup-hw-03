@@ -113,7 +113,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
+  padding: 24px;
 }
 
 .nav-link:hover,
@@ -210,11 +210,6 @@ header {
   padding: 120px 0;
 }
 .section-second-head {
-  /* font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42; */
   position: absolute;
   width: 1px;
   height: 1px;
@@ -234,10 +229,6 @@ header {
   flex-shrink: 0;
 }
 
-/* .section-second-item-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-} */
 
 .section-second-item {
   width: calc((1128px - 72px) / 4);
@@ -283,6 +274,16 @@ header {
   gap: 24px;
 }
 
+.section-thirth-head .section-thirth-item {
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+
 .section-thirth-item {
   background-color: #ffffff;
 }
@@ -294,6 +295,9 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+list-item-info {
+  padding: 32px;
+}
 
 .section-thirth-text {
   line-height: 1.5;
@@ -301,7 +305,7 @@ header {
 }
 
 .section-fourth {
-  padding: 120px 0;
+  padding: 120px;
 }
 
 .section-fourth-head {
@@ -311,7 +315,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .section-fourth-list {
   display: flex;
@@ -338,7 +342,7 @@ header {
   margin-bottom: 8px;
 }
 
-.section-fourth-text .section-fourth-items{
+.section-fourth-text .section-fourth-items {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -347,12 +351,11 @@ header {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
-
+  padding: 100px;
 }
 
 .footer .text {
-  color: #F4F4FD;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
