@@ -157,7 +157,7 @@ header {
 /* Section 1 content goes here */
 .section-first {
   background-color: #2e2f42;
-  padding: 188px 0px;
+  padding: 188px;
   text-align: center;
   display: flex;
   flex-shrink: 0;
@@ -207,7 +207,7 @@ header {
 }
 
 .section-second {
-  padding: 120px 0;
+  padding: 120px;
 }
 .section-second-head {
   position: absolute;
@@ -256,7 +256,7 @@ header {
 
 .section-thirth {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 120px;
 }
 
 .section-thirth-head {
