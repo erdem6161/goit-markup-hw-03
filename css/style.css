@@ -75,6 +75,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 24px;
 }
 
 .logo {
@@ -104,7 +105,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0px;
+  padding: 24px;
 }
 
 .nav-link {
@@ -129,6 +130,7 @@ header {
   font-style: normal;
   display: flex;
   margin-left: auto;
+  padding: 24px;
 }
 
 .contacts-item {
