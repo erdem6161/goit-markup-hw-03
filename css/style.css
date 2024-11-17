@@ -296,9 +296,13 @@ header {
   text-align: center;
 }
 .list-item-info {
-  padding: 32px;
+  padding: 32px 0;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+..list-item-info h3 {
+  margin-bottom: 8px
 }
 
 .section-thirth-text {
