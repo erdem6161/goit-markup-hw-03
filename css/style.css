@@ -274,7 +274,7 @@ header {
   gap: 24px;
 }
 
-.section-thirth-head .section-thirth-item {
+.section-thirth-list .section-thirth-item {
   width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
   background-color: #ffffff;
@@ -294,14 +294,19 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
-list-item-info {
+.list-item-info {
   padding: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+
 }
 
 .section-thirth-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-fourth {
